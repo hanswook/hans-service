@@ -11,5 +11,12 @@
 
     <artifactId>lpdr-common</artifactId>
 
-
+    <dependencies>
+        <!--mapper-->
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-spring-boot-starter</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+    </dependencies>
 </project>
