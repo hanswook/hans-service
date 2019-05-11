@@ -5,7 +5,7 @@ import javax.persistence.*;
 
 public class Todo {
     @Column(name = "u_id")
-    private Integer uId;
+    private Long uId;
 
     private String content;
 
@@ -18,14 +18,14 @@ public class Todo {
     /**
      * @return u_id
      */
-    public Integer getuId() {
+    public Long getuId() {
         return uId;
     }
 
     /**
      * @param uId
      */
-    public void setuId(Integer uId) {
+    public void setuId(Long uId) {
         this.uId = uId;
     }
 
