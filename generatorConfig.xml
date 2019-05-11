@@ -31,8 +31,8 @@
 
         <!--<table tableName="pb_user"></table>-->
         <!--<table tableName="user_follow"></table>-->
-        <!--<table tableName="blog"></table>-->
-        <table tableName="website"></table>
+        <table tableName="todo"></table>
+        <!--<table tableName="website"></table>-->
 
     </context>
 </generatorConfiguration>
